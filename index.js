@@ -4,7 +4,6 @@ const display = document.querySelector('.display');
 calc.addEventListener('click', function(event) {
     if (!event.target.classList.contains('btn')) return;
 
-    // display.innerText = event.target.innerText;
 
     switch(event.target.innerText) {
         case 'c':
